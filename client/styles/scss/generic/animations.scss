@@ -1,0 +1,13 @@
+.fadeInUp {
+  animation: fadeInUp 5s ease 0s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

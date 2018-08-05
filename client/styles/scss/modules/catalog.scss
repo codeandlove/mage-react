@@ -1,0 +1,30 @@
+.catalog {
+
+}
+
+.product-item {
+  margin: $gutter;
+  border: 1px solid black;
+  height: $product-grid-item-height;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+
+  .product-item-media {
+    flex: 1;
+  }
+
+  .product-item-name {
+    display: block;
+    text-align: center;
+    margin: $gutter 0;
+  }
+
+  .product-item-price {
+    display: block;
+    text-align: center;
+    margin: $gutter 0;
+  }
+
+}

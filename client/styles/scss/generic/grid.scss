@@ -1,0 +1,15 @@
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -#{$gutter};
+
+  @for $i from 1 through 12 {
+
+    &.grid-#{$i} {
+      > * {
+        width: calc(#{$i/12 * 100%} - #{2 * $gutter});
+      }
+    }
+  }
+
+}
