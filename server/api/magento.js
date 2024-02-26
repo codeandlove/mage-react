@@ -10,7 +10,7 @@ const options ={
         login: {
             type: 'admin', //admin or customer
             username: 'restuser',
-            password: '3558916Piotr'
+            password: ''
         },
         integration: { //from the integrations section in the magento2 backend
             consumer_key: 'vj1whj8psal4wmih7bnn5ovkw1jp4ws6',
